@@ -1,6 +1,7 @@
 /* common styles !!!YOU DON'T NEED THEM  */
 body {
   font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 
 .container {
@@ -24,10 +25,13 @@ body {
   width: 10px;
   height: 20px;
   position: absolute;
-  top: -6px;
+  top: -12px;
   right: 0;
   border-left: 2px solid currentColor;
   border-bottom: 8px solid currentColor;
   border-radius: 50%;
   transform: rotate(-90deg);
+}
+.container .subheader {
+  margin-top: 10px;
 }
