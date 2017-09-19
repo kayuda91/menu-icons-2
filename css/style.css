@@ -1,6 +1,33 @@
 /* common styles !!!YOU DON'T NEED THEM  */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .container {
   width: 550px;
   margin: 70px auto 0px auto;
   text-align: center;
+}
+.container h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+.container h1 span {
+  font-family: 'Satisfy', cursive;
+  color: #A53860;
+  position: relative;
+  display: inline-block;
+}
+.container h1 span:after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 20px;
+  position: absolute;
+  top: -6px;
+  right: 0;
+  border-left: 2px solid currentColor;
+  border-bottom: 8px solid currentColor;
+  border-radius: 50%;
+  transform: rotate(-90deg);
 }
